@@ -1,0 +1,21 @@
+{
+  "name": "jest-plus-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:maks-io/jest-plus-typescript.git",
+  "author": "Markus Kurzmann <markus@kurzmann.io>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.12.1",
+    "jest": "^26.5.3",
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "prettier": "^2.1.2",
+    "ts-jest": "^26.4.1"
+  }
+}
